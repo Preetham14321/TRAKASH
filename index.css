@@ -29,7 +29,7 @@ img {
 
 @media screen and (max-width: 600px) {
   body {
-    background: linear-gradient(to left, rgba(54, 211, 54, 0.692), grey);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.158), grey);
   }
   .svg-img {
     width: 88vw;
