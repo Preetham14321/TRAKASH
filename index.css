@@ -1,7 +1,7 @@
 .hero {
-  position: fixed;
+  /* position: fixed;
   top: 9em;
-  left: 16em;
+  left: 16em; */
 }
 @media screen and (max-width: 600px) {
   .hero {
