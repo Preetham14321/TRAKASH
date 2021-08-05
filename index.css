@@ -26,4 +26,7 @@ img {
     padding-top: 7em;
     text-shadow: 5px 1px #55a28275;
   }
+  img {
+    display: none;
+  }
 }
