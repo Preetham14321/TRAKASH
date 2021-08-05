@@ -1,5 +1,6 @@
 .hero {
-  margin: 9em 0em 0 16em;
+  padding-top: 10em;
+  padding-left: 16em;
 }
 @media screen and (max-width: 600px) {
   .hero {
