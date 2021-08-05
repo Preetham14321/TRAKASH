@@ -19,9 +19,24 @@ img {
   transform: translate(-50%, -50%);
   font-size: 39px;
 }
+.svg-img {
+  width: 46vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 600px) {
   body {
     background: linear-gradient(to left, rgba(54, 211, 54, 0.692), grey);
+  }
+  .svg-img {
+    width: 88vw;
+    position: absolute;
+    top: 44%;
+    left: 53%;
+    transform: translate(-50%, -50%);
   }
   .hero {
     margin: 0em;
