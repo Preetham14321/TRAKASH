@@ -23,8 +23,12 @@ img {
   .hero {
     margin: 0em;
     text-align: center;
-    padding-top: 7em;
+    /* padding-top: 7em; */
     text-shadow: 5px 1px #55a28275;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   img {
     display: none;
