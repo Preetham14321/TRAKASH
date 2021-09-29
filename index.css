@@ -5,7 +5,16 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.message {
+  background: linear-gradient(to right, #6e3cbe 0%, #29058b 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.message {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media screen and (max-width: 600px) {
   body {
     background: linear-gradient(to left, rgba(0, 0, 0, 0.158), grey);
@@ -16,5 +25,15 @@
     top: 44%;
     left: 53%;
     transform: translate(-50%, -50%);
+  }
+  .message {
+    position: absolute;
+    left: 50%;
+    width: 77vw;
+    top: 10%;
+    transform: translate(-50%, -50%);
+  }
+  .space {
+    padding-left: 46px;
   }
 }
