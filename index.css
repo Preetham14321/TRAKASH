@@ -37,3 +37,15 @@
     padding-left: 46px;
   }
 }
+@media screen and (max-width: 340px) {
+  .message {
+    position: absolute;
+    left: 50%;
+    width: 86vw;
+    top: 10%;
+    transform: translate(-50%, -50%);
+  }
+  .space {
+    padding-left: 46px;
+  }
+}
