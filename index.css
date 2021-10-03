@@ -27,25 +27,30 @@
     transform: translate(-50%, -50%);
   }
   .message {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     width: 77vw;
     top: 10%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    /* text-align: center; */
+    margin: 0 auto;
   }
   .space {
-    padding-left: 46px;
+    /* text-align: center; */
+    margin: 0 auto;
+    /* padding-left: 46px; */
   }
 }
 @media screen and (max-width: 340px) {
   .message {
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     width: 86vw;
     top: 10%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    margin: 0 auto;
   }
   .space {
-    padding-left: 46px;
+    margin: 0 auto;
   }
 }
